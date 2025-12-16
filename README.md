@@ -1,5 +1,5 @@
 
-# This is a repository for Unified OOD Detection and OOD Generalization for SAR Target Recognition via Uncertainty Disentanglement
+# Unified OOD Detection and OOD Generalization for SAR Target Recognition via Uncertainty Disentanglement
 
 ## TRAIN our model
 stage 1: train backbone and AU branch
