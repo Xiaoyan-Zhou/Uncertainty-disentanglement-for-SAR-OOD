@@ -38,7 +38,7 @@ def read_write_data(folder_path, writer, sheet_name, save_sheet_name, loss='EDL'
 if __name__ == '__main__':
     # 所有Excel文件所在的文件夹路径
     folder_path = 'models_trained_final/bs8_deactivate/seed_3407'  # 请修改为你的文件夹路径
-    save_path = 'results/models_trained_final/bs8_UMSE_deactivate/'
+    save_path = 'results/models_trained_final/bs8_deactivate/'
     save_sheet_name='seed_3407'
     decomposition_flag=False
     loss='UMSE' #'UMSE', 'EDL'
