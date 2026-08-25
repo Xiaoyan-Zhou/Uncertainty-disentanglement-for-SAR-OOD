@@ -13,6 +13,6 @@ stage 2: train EU branch
 
 ```    
 CUDA_VISIBLE_DEVICES=0 python train_step2_seed.py \
-        --base_lr 0.01 --kl_lambda 0.01 --end_epoch 100 \
+        --base_lr 0.01 --kl_lambda 0.01 --end_epoch 40 \
         --loss_mode_EU EDL --batch_size 8 --seed 3407 --save_to "experiments/bs8/seed_3407" 
 ```
